@@ -18,7 +18,7 @@ gsap.to(".hero-img-container", {
 // Bell sound on nav items hover
 document.querySelectorAll('.bell-sound').forEach(item => {
   item.addEventListener('mouseover', () => {
-    const audio = new Audio('assets/sounds/catbellsound.mp3');
+    const audio = new Audio('catbellsound.mp3');
     audio.play();
   });
 });
