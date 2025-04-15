@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  const pageSound = new Audio('assets/sounds/page-flip.mp3'); 
+  const pageSound = new Audio('page-flip.mp3'); 
 
   let canPlay = true;
 
