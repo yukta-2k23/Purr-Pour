@@ -1,14 +1,14 @@
 @font-face {
   font-family: Bobby jones;
-  src: url(assets/Fonts/Bobby\ Jones.otf);
+  src: url(Bobby\ Jones.otf);
 }
 @font-face {
   font-family: Handletters;
-  src: url(assets/Fonts/Handletters.ttf);
+  src: url(Handletters.ttf);
 }
 @font-face {
   font-family: Simplemade;
-  src: url(assets/Fonts/Simplemade.ttf);
+  src: url(Simplemade.ttf);
 }
 *{
   margin: 0;
@@ -22,7 +22,7 @@ html,body{
 body {
   background-color: #FFE5B4;
   padding: 0 4em;
-  cursor: url('assets/svg/cursor.svg'), auto;
+  cursor: url('cursor.svg'), auto;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -127,7 +127,7 @@ body {
   width: 100%;
   height: 50vh;
   background-color: #49261D;
-  background-image: url('assets/Images/cafe.png');
+  background-image: url('cafe.png');
   background-position: 0 75%;
   background-size:cover;
   border-radius: 100% 50% 0 0;
